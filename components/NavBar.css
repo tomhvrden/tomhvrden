@@ -1,0 +1,44 @@
+.nav {
+  width: 100%;
+  padding: 1.5rem 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 9;
+  background: rgba(8, 10, 20, 0.72);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.24);
+  backdrop-filter: blur(8px);
+}
+
+.nav__logo {
+  font-family: 'Orbitron', 'Montserrat', 'sans-serif';
+  font-size: 1.7rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-shadow: 0 0 8px #78f5ff80, 0 0 2px #fff;
+}
+
+.nav__links {
+  display: flex;
+  gap: 2.2rem;
+  list-style: none;
+}
+
+.nav__links li a {
+  color: #e0e6f8;
+  text-decoration: none;
+  font-size: 1.08rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav__links li a:hover {
+  background: rgba(60, 80, 170, 0.2);
+  color: #5ef3ff;
+}
