@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Orbitron:wght@700&display=swap');
+
+html, body, #root, .app-root {
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Montserrat', 'Orbitron', Arial, sans-serif;
+  background: transparent;
+}
+
+.app-root {
+  position: relative;
+  z-index: 1;
+}
+
+.main-content {
+  position: relative;
+  z-index: 2;
+  padding-top: 7.5rem;
+  padding-bottom: 4rem;
+  max-width: 750px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.section {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.section__title {
+  font-family: 'Orbitron', 'Montserrat', 'sans-serif';
+  font-size: 2rem;
+  letter-spacing: 0.09em;
+  color: #fff;
+  text-shadow: 0 0 14px #78f5ff30, 0 0 2px #fff;
+  margin-bottom: 1.2rem;
+  margin-top: 0;
+  font-weight: 800;
+}
+
+.section__body {
+  color: #eef2fa;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+a {
+  color: #5ef3ff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .main-content {
+    padding-top: 5.5rem;
+    max-width: 97vw;
+  }
+  .section {
+    margin: 1.2rem 0;
+  }
+}
