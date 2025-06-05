@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @tomhvrden
+- 👋 Hi, I’m TOM HVRDEN
 - 👀 I’m interested in Music Production, Gaming and Coding for fun
 - 🌱 I’m currently learning Coding
 - 💞️ I’m looking to collaborate on Web UI designing and Music Production
